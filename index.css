@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px; }
+
+.container {
+  margin: auto;
+  max-width: 375px;
+  box-shadow: 0px 2px 10px 5px #98a6bd;
+  border-radius: 5px; }
+  .container .title {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0; }
+  .container .header-wrapper {
+    box-sizing: border-box;
+    padding: 2rem 2rem 0; }
+    .container .header-wrapper .header-title {
+      color: #2ab2af; }
+    .container .header-wrapper .header-sub-title {
+      color: #c0df34;
+      font-size: 1.1rem;
+      font-weight: 400; }
+    .container .header-wrapper .header-desp {
+      color: #98a6bd;
+      line-height: 1.8rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.05rem; }
+  .container .content-wrapper {
+    background-color: #2ab2af; }
+    .container .content-wrapper * {
+      color: #e5eff5; }
+    .container .content-wrapper .content-subscription {
+      padding: 2rem; }
+      .container .content-wrapper .content-subscription h3 {
+        margin-bottom: 2rem; }
+      .container .content-wrapper .content-subscription p {
+        margin: 0 0 0.6rem; }
+      .container .content-wrapper .content-subscription .price-rule {
+        display: flex;
+        align-items: center; }
+      .container .content-wrapper .content-subscription .price {
+        font-size: 2.6rem;
+        font-weight: 700; }
+      .container .content-wrapper .content-subscription .price-rule span:not(.price) {
+        opacity: 0.7;
+        margin-left: 1rem; }
+      .container .content-wrapper .content-subscription button {
+        background-color: #c0df34;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        padding: 1rem;
+        margin-top: 2rem;
+        box-shadow: 0 10px 20px -5px #98a6bd; }
+    .container .content-wrapper .content-reasons {
+      background-color: #2fc6c4;
+      padding: 2rem; }
+      .container .content-wrapper .content-reasons ul {
+        list-style-type: none;
+        padding: 0;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        margin-bottom: 0; }
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    height: 96vh;
+    font-size: 220%; }
+    .container .title {
+      font-size: 110%; }
+    .container .header-wrapper {
+      height: 45%;
+      padding: 5rem; }
+      .container .header-wrapper .header-sub-title, .container .header-wrapper .header-desp {
+        font-size: inherit;
+        line-height: 160%;
+        margin-top: 3%; }
+    .container .content-wrapper {
+      display: flex;
+      height: 55%; }
+      .container .content-wrapper .content-subscription, .container .content-wrapper .content-reasons {
+        width: 100%;
+        padding: 5rem; }
+      .container .content-wrapper .content-subscription .price-rule {
+        margin-top: 3rem; }
+        .container .content-wrapper .content-subscription .price-rule .price {
+          font-size: 200%; }
+      .container .content-wrapper .content-subscription button {
+        font-size: 100%;
+        margin-top: 6rem;
+        padding: 2rem; }
+      .container .content-wrapper .content-reasons ul {
+        line-height: 125%; } }
+
+/*# sourceMappingURL=index.css.map */
